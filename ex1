@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int dif(int x, int y){
+	return x-y;
+}
+void main(){
+	int x, y, res;
+	scanf("%d", &x);
+	scanf("%d", &y);
+	res = dif(x, y);
+	printf("diferenca = %d", res);
+	return 0;
+}
