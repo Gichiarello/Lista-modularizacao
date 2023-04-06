@@ -1,3 +1,7 @@
+/*saida: calculo do cubo de um numero;
+entrada: um numero;
+criar uma função que calcule o cubo de um numero
+*/
 #include <stdio.h>
 
 float cubo(int x) {
