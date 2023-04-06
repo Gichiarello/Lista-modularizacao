@@ -1,3 +1,8 @@
+/*
+Saida: area do circulo:
+Entrada: raio do circulo;
+criar uma função onde calcule a area do circulo usando o raio;
+*/
 #include <stdio.h>
 
 float area(float raio, float pi){
