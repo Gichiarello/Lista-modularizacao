@@ -1,25 +1,20 @@
 #include <stdio.h>
-#include <locale.h>
 
-int ascii(char c){
-	if (c>='a'&& c<='z'){
-		return 1;
+void asterisco(int n) {
+	int i;
+	for(i=0; i<n; i++){
+		printf("*");
 	}
-	else{
-		return 0;
-	}
+	
 }
 
 int main() {
-    char c;
-    printf("Digite um caractere: ");
-    scanf("%c", &c);
+    int n;
+    printf("Digite um numero: ");
+    scanf("%d", &n);
     
-    if (ascii(c)) {
-        printf("O caractere '%c' esta entre 'a' e 'z'.\n", c);
-    } else {
-        printf("O caractere '%c' nao esta entre 'a' e 'z'.\n", c);
-    }
+    asterisco(n);
     
     return 0;
 }
+
