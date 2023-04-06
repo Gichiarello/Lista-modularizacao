@@ -1,3 +1,7 @@
+/*saida: diferenca entre os dois numeros inseridos; 
+entrada: dois numeros inteiros;
+eu usei o "return" para simplificar o calculo.
+*/
 #include <stdio.h>
 
 int dif(int x, int y){
