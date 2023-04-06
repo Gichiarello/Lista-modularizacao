@@ -1,3 +1,8 @@
+/*
+Saida: a divisão;
+entrada: dois numeros inteiros;
+criar uma função onde divida dois numeros inseridos pelo usuario, o divisor nao pode ser igual a zero;
+*/
 #include <stdio.h>
 
 float div(int x, int y){
