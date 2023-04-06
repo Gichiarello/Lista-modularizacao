@@ -1,8 +1,15 @@
+/*
+saidas: mostrar o saldo, depositar, sacar ou sair do banco;
+entradas: confirmação para mostrar o saldo, quantidade para depositar,
+quantidade para sacar e confirmação para sair do banco;
+criando 3 funçoes diferentes para simular um banco, o usuario escolhe
+para qual direção o codigo deve ir.
+*/
 #include <stdio.h>
 #include <locale.h>
 
 float saldo(float conta){
-	printf("\nO seu saldo � de %.2f\n\n", conta);
+	printf("\nO seu saldo é de %.2f\n\n", conta);
 }
 float deposito(){
 	float din;
@@ -16,7 +23,7 @@ float saque(float conta){
 	printf("\nDigite a quantidade que queira sacar:\n");
 	scanf("%f", &sac);
 	while(sac<=0||sac>conta){
-		printf("N�o � posivel realizar o saque, tente denovo:\n");
+		printf("Não é posivel realizar o saque, tente denovo:\n");
 		scanf("%f", sac);
 	}
 	printf("\nSaque realizado com sucesso");
@@ -46,7 +53,7 @@ void main(){
 				option=-1;
 				break;
 			default:
-				printf("\nOp��o inexistente\n");
+				printf("\nOpção inexistente\n");
 				break;
 	
 	    }
