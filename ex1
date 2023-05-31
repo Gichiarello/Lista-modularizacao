@@ -1,4 +1,5 @@
-/*saida: diferenca entre os dois numeros inseridos; 
+/*Giovanni chiarello 31/05
+saida: diferenca entre os dois numeros inseridos; 
 entrada: dois numeros inteiros;
 eu usei o "return" para simplificar o calculo.
 */
