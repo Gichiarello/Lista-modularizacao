@@ -1,4 +1,5 @@
-/*Saida: quantidade de asteriscos definidos pelo usuario;
+/*Giovanni Chiarello 31/05
+Saida: quantidade de asteriscos definidos pelo usuario;
 entrada: um numero inteiro;
 criar uma função para calcular a quantidade de asteriscos
 que o programa deve imprimir.
