@@ -1,4 +1,5 @@
-/*saida: confirmação se a letra esta entre o determinado local;
+/*Giovanni Chiarello 31/05
+saida: confirmação se a letra esta entre o determinado local;
 entrada: uma letra;
 criar uma função que calcula se tal letra esta ou não dentro de um determinado local.
 */
