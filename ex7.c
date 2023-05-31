@@ -1,4 +1,5 @@
-/*saida: calculo do cubo de um numero;
+/*Giovanni Chiarello 31/05
+saida: calculo do cubo de um numero;
 entrada: um numero;
 criar uma função que calcule o cubo de um numero
 */
