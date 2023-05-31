@@ -1,4 +1,4 @@
-/*
+/*Giovanni Chiarello 31/05
 saidas: mostrar o saldo, depositar, sacar ou sair do banco;
 entradas: confirmação para mostrar o saldo, quantidade para depositar,
 quantidade para sacar e confirmação para sair do banco;
